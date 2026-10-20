@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://darwin-agent.github.io/Car-bench-TRACE/",
+    "status": 200,
+    "links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.gstatic.com",
+      "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
+      "#top",
+      "#overview",
+      "#method",
+      "#hidden",
+      "#citation",
+      "#overview",
+      "#method",
+      "#hidden",
+      "#citation",
+      "https://arxiv.org/abs/2608.22793",
+      "https://github.com/Darwin-Agent/Car-bench-TRACE",
+      "https://car-bench.github.io/car-bench/leaderboard.html",
+      "assets/trace.png",
+      "assets/trace.png",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://api.semanticscholar.org/graph/v1/paper/b494ed4e985b3a9c52c5c44b5c4a9dc75b63ff2a?fields=title,externalIds,openAccessPdf",
+    "status": 429,
+    "links": [],
+    "body": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.04562",
+    "status": 200,
+    "links": [],
+    "body": ""
+  }
+]

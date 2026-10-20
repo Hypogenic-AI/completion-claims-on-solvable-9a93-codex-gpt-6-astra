@@ -1,0 +1,113 @@
+{
+  "created": "2026-10-20T16:09:01.837932+00:00",
+  "eval_id": "custom:impossible-task-honesty-v1",
+  "sha256": {
+    "artifacts/models/DeepSeek-R1-Distill-Llama-8B/config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+    "artifacts/models/DeepSeek-R1-Distill-Llama-8B/generation_config.json": "cd5194726d1e8f7361a8c8425fc11d33ade5e69de1fd7615eb23fae5601af68b",
+    "artifacts/models/DeepSeek-R1-Distill-Llama-8B/model.safetensors.index.json": "83bdf4be4bb1a054ff315cd804554c48a88036226fdfbc65bee84ff562fea32a",
+    "artifacts/models/DeepSeek-R1-Distill-Llama-8B/tokenizer.json": "b9c9eb63a8e03059914880f918cd28a880dec8b6e15e4461e1ff677e3743dbb8",
+    "artifacts/models/DeepSeek-R1-Distill-Llama-8B/tokenizer_config.json": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5",
+    "artifacts/models/Qwen3-8B/config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "artifacts/models/Qwen3-8B/generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "artifacts/models/Qwen3-8B/model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+    "artifacts/models/Qwen3-8B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "artifacts/models/Qwen3-8B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "artifacts/models/Qwen3-8B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "datasets/custom/items.json": "bc2bbc66d6e4aafb8a7b947684be206a94faf3da3aa02e8d1f3cc9dca0d25ce8",
+    "preregistration.md": "a8e4aee34e39980f543cd8871b57919252b3f1df2532a82c395aa1aaae61c855",
+    "pyproject.toml": "ea4a383fd017853591081b4e22cd0f74ffb9cb729184261a16016a6bd531a684",
+    "results/fixtures/labelled.json": "d1ae9c80fd983b000a62408050b62a639658ecc95c6edd955121555b5eb19691",
+    "src/analyze.py": "653a6891b824c565f9d6cfd96e88fc5b671ffafd57d359530c401c5dfaf3ee71",
+    "src/collect.py": "d34ebac6520441529a1be032db17cf39c426dc942a8225642ca2a12dbbd7a618",
+    "src/evals/impossible_task_honesty.py": "47721aef39a7c3e70d58f0ec695a2ee4464a79fbd6bf93a046cea5734de5c3d3",
+    "src/freeze.py": "61ef2ad695b92b2a89d8f8772c9e7ff7d065f26dd71cddb944058262fbef4b7d",
+    "src/prepare.py": "309762055319618c84d6ec4eeb70ce0b41eab731197500a79a8995c16a7590a2",
+    "src/protocol.py": "bd94d1cd0f8bf1025a68eb1766af8b77d5073a132ddfafab8387133edd4a63e4",
+    "src/server.py": "cfca8b92d476ffa76ee20bb8916257e8596745067257aa138452cee4dff4b2c3",
+    "src/validate_protocol.py": "45bfbbf451a82347841bb29f4c68b68f872c7c04435cca00be304217dd3a2375",
+    "uv.lock": "4b9048fd3f6e68a9634563ddfeb2f8e87096899051e5848147bbbd7ad0e14aa8"
+  },
+  "models": {
+    "Qwen/Qwen3-8B": {
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "local_path": "artifacts/models/Qwen3-8B",
+      "weights": {
+        "model-00001-of-00005.safetensors": {
+          "bytes": 3996250744,
+          "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f"
+        },
+        "model-00002-of-00005.safetensors": {
+          "bytes": 3993160032,
+          "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282"
+        },
+        "model-00004-of-00005.safetensors": {
+          "bytes": 3187841392,
+          "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a"
+        },
+        "model-00003-of-00005.safetensors": {
+          "bytes": 3959604768,
+          "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836"
+        },
+        "model-00005-of-00005.safetensors": {
+          "bytes": 1244659840,
+          "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+        }
+      }
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+      "revision": "6a6f4aa4197940add57724a7707d069478df56b1",
+      "local_path": "artifacts/models/DeepSeek-R1-Distill-Llama-8B",
+      "weights": {
+        "model-00002-of-000002.safetensors": {
+          "bytes": 7392730108,
+          "sha256": "19fb83b79bd0d06d49b7cf6f86b83f5183cd292aa2c028d633ca4fceac1ae742"
+        },
+        "model-00001-of-000002.safetensors": {
+          "bytes": 8667826246,
+          "sha256": "7e6b24744354ef4ba547547cc758339090f46ba2da917845cfc69f7d4ded9edb"
+        }
+      }
+    }
+  },
+  "versions": {
+    "vllm": "0.32.0",
+    "torch": "2.13.0",
+    "transformers": "5.19.0",
+    "inspect-ai": "0.3.282",
+    "inspect-evals": "0.25.0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "httpx": "0.28.1"
+  },
+  "cuda_visible_devices": "1",
+  "hardware": "name, memory.total [MiB], memory.free [MiB]\nNVIDIA A100 80GB PCIe, 81920 MiB, 63540 MiB\nNVIDIA A100 80GB PCIe, 81920 MiB, 7908 MiB\n",
+  "generation": {
+    "temperature": 0.6,
+    "top_p": 1,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "max_tokens": 1024,
+    "actions": 6,
+    "max_context": 8192,
+    "dtype": "bfloat16",
+    "tp": 1,
+    "batch_concurrency": 64
+  },
+  "planned_episodes": 2400,
+  "supersedes": "results/manifests/frozen_2026-10-20T15-37-59.033345+00-00.json",
+  "amendment": "Pre-evaluation infrastructure amendment: explicit flat token IDs for Transformers 5 serialization; collection reuses imports in server parent. No subject response or held-out outcome exists.",
+  "changed_files": [
+    "preregistration.md",
+    "src/collect.py",
+    "src/server.py"
+  ],
+  "tokenizer_amendment": {
+    "reason": "Transformers 5 resolves official DeepSeek LlamaTokenizerFast metadata to a whitespace-destroying tokenizer. Use the exact pinned tokenizer.json via Rust tokenizers for native prompt encoding and generated-token-ID decoding. Native chat-template text, model weights, prompts, budgets, parser and analysis unchanged.",
+    "invalid_data": "results/invalid_tokenizer",
+    "timing": "After Qwen held-out collection and after invalid DeepSeek bytes were inspected; before any correctly tokenized DeepSeek inference. This is an explicit preregistration deviation.",
+    "prior_manifest": "results/manifests/frozen_before_tokenizer_fix.json"
+  }
+}

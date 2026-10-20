@@ -1,0 +1,45 @@
+[
+  {
+    "task_index": 0,
+    "instruction": "Please read the document media_ethics_briefing_internal.pdf, which compiles editorials on newsroom decisions regarding reporting AI-generated misinformation during recent elections. This document is a report from the Global News Network's Editorial Integrity Committee, detailing the debates and ethical dilemmas surrounding AI-generated misinformation reporting within newsrooms during recent election cycles. The report analyzes real-world cases, internal disagreements, and drafts policy recommendations on verification, transparency, and the responsible use of AI in news reporting. Based on this document, identify the three most contentious ethical dilemmas and summarize them in a two-page policy memo in Markdown format.",
+    "task_type": 1,
+    "tool": [],
+    "topic": "Society",
+    "file_name": "media_ethics_briefing_internal.pdf"
+  },
+  {
+    "task_index": 20,
+    "instruction": "You are given a local text file named urban_youth_participation_log_2024.txt. This file contains detailed field observations collected during community workshops in several mtask_index-sized cities, focusing on how young citizens engage with local governance and civic initiatives. Please read the file carefully and then summarize the major policy implications for improving youth participation frameworks in an analytical report (about 600 words).",
+    "task_type": 2,
+    "tool": [],
+    "topic": "Society",
+    "file_name": "urban_youth_participation_log_2024.txt",
+    "file_content": "Date: March 14, 2024\nLocation: Old Harbor Market, West District\nObservation Notes: The vendor reported that mango prices have dropped by nearly 20% compared to last year due to an oversupply from the southern region. Traders mentioned difficulties in transportation caused by recent flooding. Several stalls sold out early because of tourists from nearby events.\n\nDate: March 15, 2024\nLocation: Central Bus Station\nNotes: Heavy rainfall disrupted morning schedules. Commuters expressed frustration over late departures. One driver mentioned ongoing repairs at the north terminal. Street vendors were moved temporarily to avoid congestion.\n\nDate: March 16, 2024\nLocation: City Museum Courtyard\nNotes: Local artists organized a pop-up exhibition using recycled materials. Attendance was moderate; participants discussed environmental awareness and reuse culture. A group of students from Hillcrest College performed spoken word poetry about climate anxiety.\n"
+  },
+  {
+    "task_index": 40,
+    "instruction": "Read the local file legal_policy_2024.pptx, which contains early-stage internal notes discussing revisions to regional privacy legislation.\nBased on this local file, summarize the key proposed legal amendments and generate a structured policy briefing document in Markdown format. Save it in the current directory.",
+    "task_type": 3,
+    "tool": [],
+    "topic": "Society",
+    "pptx_file_name": "legal_policy_2024.pptx",
+    "file_content": "[Confidential Draft - Internal Legal Department Use Only]\n\nSection 1. Overview\nThe revision aims to harmonize provincial data protection laws with the national framework, especially concerning cross-border data exchange. The current disparity among provinces has created legal uncertainty for enterprises.\n\nSection 2. Key Discussion Points\n- Introduction of mandatory data breach notifications within 72 hours.\n- Establishment of a unified consent standard for personal information collection.\n- Stronger penalties for repeat offenders\u2014up to 3% of annual revenue.\n- Discussion about \"public interest exemption\" clause and its ambiguity.\n\nSection 3. Stakeholder Feedback (collected March\u2013May 2024)\nSeveral technology firms expressed concern that the mandatory reporting timeline is too strict for smaller companies. Civil rights organizations emphasized the need for clearer opt-out mechanisms.\n\nSection 4. Next Steps\n- Interdepartmental consultation scheduled for August 2024.\n- Draft to be submitted to legislative review before year-end.\n",
+    "txt_file_name": "draft_notes.txt"
+  },
+  {
+    "task_index": 80,
+    "instruction": "You are a social research assistant. Your task_type is to respond thoughtfully. First, download \u201cThe Role of Social Media in the Arab Spring\u201d to the local path as arab_spring_media_report.txt. This file provtask_indexes a detailed analysis of how online networks such as Twitter and Facebook influenced public mobilization and government response during the 2010\u20132012 uprisings across the Mtask_indexdle East. Based on this file, analyze how digital communication transformed traditional forms of political activism and create a concise written report summarizing your analysis, then save the document locally.",
+    "task_type": 4,
+    "tool": [],
+    "topic": "Society",
+    "target_file_name": "arab_spring_media_report.txt"
+  },
+  {
+    "task_index": 60,
+    "instruction": "You are a legal policy analyst. Your task_type is to respond carefully and write a complete analytical document.\nFirst, download \u201cJudicial Oversight Report on Emerging Protest Regulations \u2013 2027 Draft Review\u201d to the current path as protest_regulations_review.txt.\nThis file provtask_indexes detailed minutes from a closed parliamentary session discussing the potential creation of nationwtask_indexe legal frameworks to monitor and regulate spontaneous street assemblies.\nBased on this file, write several paragraphs analyzing how these proposed laws might affect freedom of speech and civil rights, and create a concise summary document that outlines the key policy changes, public reactions, and legal risks. Finally, write your analysis into a well-structured Markdown report and save it locally as civil_rights_policy_analysis.md.",
+    "task_type": 5,
+    "tool": [],
+    "topic": "Society",
+    "target_file_name": "protest_regulations_review.txt"
+  }
+]

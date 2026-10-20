@@ -1,0 +1,21 @@
+{
+  "completed_at": "2026-10-20T16:19:55.282177+00:00",
+  "required_artifacts_present": [
+    "REPORT.md",
+    "README.md",
+    "preregistration.md",
+    "preregistration_amendment.md",
+    "planning.md",
+    "results/item_level_paired.json",
+    "results/manifests/frozen.json",
+    "results/fixtures/checks.json",
+    "results/fixtures/tokenizer_checks.json",
+    "results/final_validation.json",
+    "figures/outcomes.png"
+  ],
+  "owned_research_processes_running": [],
+  "server_pid_file_absent": true,
+  "valid_heldout_episodes": 2400,
+  "invalid_saved_episodes_excluded": 212,
+  "candidate": false
+}

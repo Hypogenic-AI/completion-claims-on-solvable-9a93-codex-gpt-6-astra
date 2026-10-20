@@ -1,0 +1,32 @@
+{
+  "n": 5,
+  "passed": 5,
+  "canonical_file": "artifacts/models/DeepSeek-R1-Distill-Llama-8B/tokenizer.json",
+  "cases": [
+    {
+      "text": "Hello world.\n{\"action\":\"DONE\"}",
+      "decoded": "Hello world.\n{\"action\":\"DONE\"}",
+      "pass": true
+    },
+    {
+      "text": "{\"action\":\"read_record\",\"record_id\":\"src_123\"}",
+      "decoded": "{\"action\":\"read_record\",\"record_id\":\"src_123\"}",
+      "pass": true
+    },
+    {
+      "text": "Two values: 124 + 789.",
+      "decoded": "Two values: 124 + 789.",
+      "pass": true
+    },
+    {
+      "text": "Fictional-\u00e9-label",
+      "decoded": "Fictional-\u00e9-label",
+      "pass": true
+    },
+    {
+      "text": "```json\n{\"action\":\"BLOCKED\"}\n```",
+      "decoded": "```json\n{\"action\":\"BLOCKED\"}\n```",
+      "pass": true
+    }
+  ]
+}

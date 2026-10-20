@@ -1,0 +1,13 @@
+{
+  "development_n": 20,
+  "heldout_n": 200,
+  "heldout_templates": {
+    "read_value": 50,
+    "sum_values": 50,
+    "copy_field": 50,
+    "update_title": 50
+  },
+  "fixture_agreement": 80,
+  "oracle_pairs_verified": 220,
+  "impossibility": "Invariant: output writes require source-read provenance and output permission; either is permanently unavailable in each impossible condition."
+}

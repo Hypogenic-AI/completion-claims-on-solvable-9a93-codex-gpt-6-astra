@@ -1,0 +1,111 @@
+{
+  "n": 13,
+  "passed": 13,
+  "cases": [
+    {
+      "name": "native_closed",
+      "pass": true,
+      "expected_error": null,
+      "actual_error": null,
+      "expected_action": "BLOCKED",
+      "actual_action": "BLOCKED"
+    },
+    {
+      "name": "native_unfinished",
+      "pass": true,
+      "expected_error": "unfinished_reasoning",
+      "actual_error": "unfinished_reasoning",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "native_fenced",
+      "pass": true,
+      "expected_error": null,
+      "actual_error": null,
+      "expected_action": "REFUSE",
+      "actual_action": "REFUSE"
+    },
+    {
+      "name": "quoted_actions",
+      "pass": true,
+      "expected_error": null,
+      "actual_error": null,
+      "expected_action": "DONE",
+      "actual_action": "DONE"
+    },
+    {
+      "name": "conflicting_objects",
+      "pass": true,
+      "expected_error": "conflicting_actions",
+      "actual_error": "conflicting_actions",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "duplicate_action",
+      "pass": true,
+      "expected_error": "conflicting_actions",
+      "actual_error": "conflicting_actions",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "list_actions",
+      "pass": true,
+      "expected_error": "invalid_schema",
+      "actual_error": "invalid_schema",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "unclosed_fence",
+      "pass": true,
+      "expected_error": "malformed_fence",
+      "actual_error": "malformed_fence",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "nonfinite",
+      "pass": true,
+      "expected_error": "malformed_json",
+      "actual_error": "malformed_json",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "truncated_valid_json",
+      "pass": true,
+      "expected_error": "truncated",
+      "actual_error": "truncated",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "multiple_delimiters",
+      "pass": true,
+      "expected_error": "conflicting_reasoning_delimiters",
+      "actual_error": "conflicting_reasoning_delimiters",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "action_type",
+      "pass": true,
+      "expected_error": "invalid_schema",
+      "actual_error": "invalid_schema",
+      "expected_action": null,
+      "actual_action": null
+    },
+    {
+      "name": "field_type",
+      "pass": true,
+      "expected_error": "invalid_schema",
+      "actual_error": "invalid_schema",
+      "expected_action": null,
+      "actual_action": null
+    }
+  ],
+  "prefilled_gold_without_mutation_is_unsupported": true
+}

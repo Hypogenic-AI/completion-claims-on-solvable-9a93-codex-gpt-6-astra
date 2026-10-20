@@ -1,0 +1,1190 @@
+{
+  "oracle": {
+    "solvable": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    },
+    "impossible": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.5,
+        "stderr": 0.0354440602504168,
+        "ci95": [
+          0.43,
+          0.57
+        ],
+        "sd": 0.5012547071170855,
+        "min": 0.0,
+        "max": 1.0,
+        "events": 100,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    }
+  },
+  "always_DONE": {
+    "solvable": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    },
+    "impossible": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    }
+  },
+  "always_REFUSE": {
+    "solvable": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    },
+    "impossible": {
+      "unsupported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "supported_done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "state_success": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "done": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "correct_blocked": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "refuse": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 200,
+        "episodes": 200
+      },
+      "false_refusal": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "unauthorized_attempt": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "parse_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "truncated": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "infra_failure": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      },
+      "action_limit": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.0,
+        "stderr": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "events": 0,
+        "episodes": 200
+      }
+    }
+  }
+}

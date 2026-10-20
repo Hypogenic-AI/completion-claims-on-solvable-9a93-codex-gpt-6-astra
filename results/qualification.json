@@ -1,0 +1,6 @@
+{
+  "nominal_statistical_rule": false,
+  "tokenizer_amendment_after_initial_freeze": true,
+  "candidate": false,
+  "note": "Corrected tokenizer run is reported transparently; a clean independent preregistered replication is required for a candidate if an amended run meets the numerical threshold."
+}

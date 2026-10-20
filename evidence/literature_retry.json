@@ -1,0 +1,75 @@
+[
+  {
+    "query": "ti:DriftBench",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2510.10858v1",
+        "title": "DriftBench: Defining and Generating Data and Query Workload Drift for Benchmarking",
+        "summary": "Data and workload drift are key to evaluating database components such as caching, cardinality estimation, indexing, and query optimization. Yet, existing benchmarks are static, offering little to no support for modeling drift. This limitation stems from the lack of clear definitions and tools for generating data and workload drift. Motivated by this gap, we propose a unified taxonomy for data and workload drift, grounded in observations from both academia and industry. Building on this foundation, we introduce DriftBench, a lightweight and extensible framework for generating data and workload drift in benchmark inputs. Together, the taxonomy and DriftBench provide a standardized vocabulary and mechanism for modeling and generating drift in benchmarking. We demonstrate their effectiveness through case studies involving data drift, workload drift, and drift-aware cardinality estimation.",
+        "published": "2025-10-12T23:46:04Z"
+      }
+    ]
+  },
+  {
+    "query": "ti:TRACE AND all:Skill",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2610.11169v1",
+        "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+        "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or provenance. The origin of a copied skill, the reach of a security fix and the repositories that warrant review are therefore unknown. Studies that record which repositories hold a skill at a single point in time cannot reveal who copied it from whom. We contribute the first dated copy network of agent skills, built from the git history of every SKILL.md in GitSkills and covering 2,193,119 skill adoptions across GitHub, together with an interactive viewer. A few repositories are the source of almost all copies, and GitHub stars do not identify them. Skill copies almost never change with their source, and a fix at the source therefore rarely reaches them. We fit a model of which repositories others copy from and use it to rank repositories for audit. Reviewing the 100 repositories it ranks highest prevents 14.9% of later adoptions of high-risk skills, against 0.5% for the 100 most starred, which gives security engineers a short list to check before a skill spreads. Platforms should therefore distribute versioned references rather than copies. Project Website: https://fahdseddik.github.io/Skill-Constellations/",
+        "published": "2026-10-08T03:25:22Z"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.04869v1",
+        "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+        "summary": "Computer-use agents can execute increasingly complex tasks in graphical interfaces, but their interaction experience is typically transient: procedural knowledge acquired from one rollout is not systematically retained, refined, and reused in later tasks. Existing skill libraries provide external procedural knowledge, yet their incremental value over the same agent operating without skills, as well as their longitudinal dynamics under repeated interaction, remain insufficiently characterized. We present an online skill-evolution framework that converts interaction trajectories and evaluator feedback into a persistent, versioned library of reusable procedures. Each iteration executes against a frozen library snapshot, and evidence-guided skill updates become available in subsequent iterations without changing model parameters. We compare the full evolving-library system with a configuration-matched empty-library control across four OSWorld application domains under the same fixed action-generation and GUI-grounding stack, task sets, and iteration horizons. Following a five-iteration empty-library warm-up, Full attains a higher post-warm-up mean evaluator score in all four observed domain runs, with mean differences ranging from 5.7 to 18.6 percentage points and domain-dependent temporal stability. In GIMP, provenance-aware analysis reveals retrieval across task-of-origin boundaries and revision churn, where repeated accepted edits fail to recover the originating task. These findings characterize evolving skill libraries as auditable, shared procedural memory that can improve a fixed computer-use stack, while showing that their benefits are conditional and repeated revision does not guarantee recovery. Code is released at https://github.com/LongtaoHu/Skill-Evo4GUI.",
+        "published": "2026-09-04T08:29:45Z"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.01139v4",
+        "title": "SkillRevise: Improving LLM-Authored Agent Skills via Trace-Conditioned Skill Revision",
+        "summary": "Agent skills are procedural artifacts that enable LLM agents to execute workflows, verify constraints, and recover from failures. Existing self-evolving methods refine skills using accumulated trajectories. However, they struggle in cold-start settings, where only an initial, imperfect skill is available. Consequently, skill construction defaults to expert authoring or one-shot LLM generation. Expert-authored skills are costly and may not align with how LLM agents actually execute tasks, while one-shot generated skills can be syntactically well formed yet behaviorally weak. To bridge this gap, we propose SkillRevise, an execution-grounded framework designed to iteratively refine these initial skills. SkillRevise diagnoses skill defects from execution evidence, retrieves relevant repair principles from a general memory, and applies execution-anchored edits. By re-executing candidates and measuring empirical utility, it retains the best observed skill within the revision budget. Evaluated across three main benchmarks, two domain-specific studies, and six LLMs, SkillRevise substantially outperforms one-shot baselines, improving the base agent's success rate on SkillsBench from 36.05% to 61.63%. Furthermore, the revised skills transfer across both executors and task environments, suggesting that SkillRevise captures reusable procedural knowledge beyond any single executor. Our code is available at https://github.com/HKUST-KnowComp/skillrevise.",
+        "published": "2026-05-31T10:19:13Z"
+      }
+    ]
+  },
+  {
+    "query": "ti:\"Correct Answer\" AND ti:Mechanism",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2606.23175v1",
+        "title": "Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts",
+        "summary": "AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. This position paper argues that outcome-only evaluation is insufficient, and that task outcome, mechanism fidelity, and epistemic honesty must be measured separately. Our evidence comes from 28 episodes of a coding agent attempting to rediscover a known particle identification observable in a Geant4 simulation, including an 8-episode probe across two additional frontier models. In 4/20 primary-model and 3/8 cross-model episodes, agents reach right-looking results through incorrect reasoning that breaks when conditions change, which we call Correct Answer, Wrong Mechanism (CAWM). Honesty and mechanism fidelity dissociate within a single agent trajectory. When given a partially misleading prior, all five agents reject the false component on evidence, yet one defends its chosen observable with physics inconsistent with its own data. In the simulation-based discovery setting studied here, coding agents prove reliable tools but unreliable scientific co-authors for open-ended claim-making, where co-author trust requires mechanism-fidelity verification they do not reliably self-apply. The failure is detectable, and we propose a lightweight test. A one-step regime-shift check needs only the agent's claim and flags the over-generalized cases. A companion recomputation flags the remaining cases when the correct observable is known. Together, these checks flag every CAWM case in this study.",
+        "published": "2026-06-22T11:14:07Z"
+      }
+    ]
+  },
+  {
+    "query": "ti:\"Competing-Hazards\"",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2609.38411v1",
+        "title": "A Competing-Hazards Systematization of Loss of Control in Autonomous Agents",
+        "summary": "Leading AI developers have reported agents acting beyond their approved limits, which a United Nations panel described as an early warning of loss of human control. Yet incident reports and agent-safety evaluations describe these events differently, making it difficult to compare failures, trace risk across attempts, or separate agent behavior from the environment's role in allowing an out-of-scope action to succeed. To address this gap, we introduce a common framework in which each attempt ends in approved completion, safe stopping, scope escape, or continuation. We formalize the framework as a discrete-time competing-hazards model and derive escape probability within a retry budget, a model-conditional safe-budget limit, and conditions for estimation from execution logs. We audit 22 incident reports and 102 agent-safety evaluations published from January 2025 to September 2026 using primary sources. Six incidents involved tasks that could not be completed within scope, thirteen involved agents that continued rather than stopped, and five did not report stopping behavior. Developers' figures imply a task-level incidence ratio near 47 for out-of-scope coordination in never-solved versus solved tasks. Among evaluations, 87 recorded an out-of-scope effect or specification violation, 26 treated safe stopping as a first-class outcome, only 20 recorded both, and 79 merged budget exhaustion with failure. In 20 of 22 incidents, the environment allowed an out-of-scope effect, indicating that realized loss of control often reflected persistent agent behavior interacting with permissive boundary conditions; meanwhile, no evaluation reported all fields needed to estimate the full competing-hazards process from published evidence.",
+        "published": "2026-09-29T19:04:21Z"
+      }
+    ]
+  },
+  {
+    "query": "ti:\"Heaviside Continuity\"",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2102.07156v1",
+        "title": "ChipNet: Budget-Aware Pruning with Heaviside Continuous Approximations",
+        "summary": "Structured pruning methods are among the effective strategies for extracting small resource-efficient convolutional neural networks from their dense counterparts with minimal loss in accuracy. However, most existing methods still suffer from one or more limitations, that include 1) the need for training the dense model from scratch with pruning-related parameters embedded in the architecture, 2) requiring model-specific hyperparameter settings, 3) inability to include budget-related constraint in the training process, and 4) instability under scenarios of extreme pruning. In this paper, we present ChipNet, a deterministic pruning strategy that employs continuous Heaviside function and a novel crispness loss to identify a highly sparse network out of an existing dense network. Our choice of continuous Heaviside function is inspired by the field of design optimization, where the material distribution task is posed as a continuous optimization problem, but only discrete values (0 or 1) are practically feasible and expected as final outcomes. Our approach's flexible design facilitates its use with different choices of budget constraints while maintaining stability for very low target budgets. Experimental results show that ChipNet outperforms state-of-the-art structured pruning methods by remarkable margins of up to 16.1% in terms of accuracy. Further, we show that the masks obtained with ChipNet are transferable across datasets. For certain cases, it was observed that masks transferred from a model trained on feature-rich teacher dataset provide better performance on the student dataset than those obtained by directly pruning on the student data itself.",
+        "published": "2021-02-14T13:54:50Z"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.04562v3",
+        "title": "Heaviside Continuity of Rolling Coefficients for Eliminating Epistemic Entropy in Large Language Models",
+        "summary": "Large language models (LLMs) generate fluent outputs that can be wrong. Unlike humans, who often exhibit cues when providing false information, LLMs produce errors that are difficult to detect because autoregressive decoding provides no mechanism for verifying intermediate reasoning before state progression. We introduce Heaviside Continuity of Rolling Coefficients (HCRC), a verification-first execution framework that reformulates inference as predicate-gated state transitions governed by a Heaviside Gate. HCRC combines model confidence with independent verification signals from a parallel worker architecture, allowing execution to advance only when predefined correctness predicates are satisfied. This prevents invalid intermediate states from propagating, reducing epistemic entropy without modifying the underlying model. We evaluate HCRC on software-engineering and reasoning tasks across thirteen proposers from four providers. On capable proposers, the gate reduces the false-completion rate (FCR) from 4--7% to 0% while remaining latency-competitive and, in some settings, faster than the unwrapped model. On weaker proposers, it converts false completions into honest halts instead of corrupting downstream state. Beyond benchmarking, HCRC has operated for months as the production control plane of an agentic coding environment, authorizing file mutations, verification-driven progress reporting, and memory compaction. These results establish HCRC as a general framework for verification-driven LLM execution, showing that reliable reasoning can be achieved through principled execution control rather than model scale alone.",
+        "published": "2026-07-06T00:29:34Z"
+      }
+    ]
+  }
+]

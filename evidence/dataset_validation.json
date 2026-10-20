@@ -1,0 +1,242 @@
+{
+  "lcb": {
+    "original": {
+      "rows": 103,
+      "columns": [
+        "task_id",
+        "prompt",
+        "test",
+        "original_test",
+        "entry_point",
+        "impossible_type"
+      ],
+      "nulls": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "entry_point": 0,
+        "impossible_type": 0
+      },
+      "empty_strings": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "entry_point": 0,
+        "impossible_type": 0
+      },
+      "unique_ids": 103,
+      "syntax_errors": []
+    },
+    "oneoff": {
+      "rows": 103,
+      "columns": [
+        "task_id",
+        "prompt",
+        "test",
+        "original_test",
+        "impossible_type",
+        "entry_point"
+      ],
+      "nulls": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "impossible_type": 0,
+        "entry_point": 0
+      },
+      "empty_strings": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "impossible_type": 0,
+        "entry_point": 0
+      },
+      "unique_ids": 103,
+      "syntax_errors": [
+        {
+          "id": "lcbhard_77",
+          "field": "test",
+          "error": "unterminated string literal (detected at line 26) (<unknown>, line 26)"
+        }
+      ]
+    },
+    "conflicting": {
+      "rows": 103,
+      "columns": [
+        "task_id",
+        "prompt",
+        "test",
+        "original_test",
+        "impossible_type",
+        "entry_point"
+      ],
+      "nulls": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "impossible_type": 0,
+        "entry_point": 0
+      },
+      "empty_strings": {
+        "task_id": 0,
+        "prompt": 0,
+        "test": 0,
+        "original_test": 0,
+        "impossible_type": 0,
+        "entry_point": 0
+      },
+      "unique_ids": 103,
+      "syntax_errors": [
+        {
+          "id": "lcbhard_77",
+          "field": "test",
+          "error": "unterminated string literal (detected at line 27) (<unknown>, line 27)"
+        }
+      ]
+    },
+    "pairing_issues": [],
+    "paired_base_ids": 103,
+    "reference_solutions_present": false,
+    "warning": "Parsing and ID checks do not prove solvability, specification consistency or impossibility; independent gold solutions/invariants needed before confirmatory use."
+  },
+  "upward": {
+    "task_1.json": {
+      "rows": 40,
+      "unique_ids": 40,
+      "columns": [
+        "file_name",
+        "instruction",
+        "task_index",
+        "task_type",
+        "tool",
+        "topic"
+      ],
+      "empty_instruction": 0,
+      "missing_or_empty_file_content": 40,
+      "instruction_task_index_artifacts": 11,
+      "topics": {
+        "Society": 5,
+        "Entertainment": 5,
+        "Acadamic": 4,
+        "Software Engineering": 6,
+        "Economy": 4,
+        "Health": 6,
+        "Education": 5,
+        "Puzzle": 5
+      }
+    },
+    "task_2.json": {
+      "rows": 40,
+      "unique_ids": 40,
+      "columns": [
+        "file_content",
+        "file_name",
+        "instruction",
+        "task_index",
+        "task_type",
+        "tool",
+        "topic"
+      ],
+      "empty_instruction": 0,
+      "missing_or_empty_file_content": 0,
+      "instruction_task_index_artifacts": 10,
+      "topics": {
+        "Society": 5,
+        "Entertainment": 5,
+        "Acadamic": 5,
+        "Software Engineering": 5,
+        "Economy": 5,
+        "Health": 5,
+        "Education": 5,
+        "Puzzle": 5
+      }
+    },
+    "task_3.json": {
+      "rows": 40,
+      "unique_ids": 40,
+      "columns": [
+        "file_content",
+        "instruction",
+        "pptx_file_name",
+        "task_index",
+        "task_type",
+        "tool",
+        "topic",
+        "txt_file_name"
+      ],
+      "empty_instruction": 0,
+      "missing_or_empty_file_content": 0,
+      "instruction_task_index_artifacts": 11,
+      "topics": {
+        "Society": 5,
+        "Entertainment": 5,
+        "Acadamic": 5,
+        "Software Engineering": 5,
+        "Economy": 5,
+        "Health": 5,
+        "Education": 5,
+        "Puzzle": 5
+      }
+    },
+    "task_4.json": {
+      "rows": 40,
+      "unique_ids": 40,
+      "columns": [
+        "attached_file_name",
+        "instruction",
+        "target_file_name",
+        "task_index",
+        "task_type",
+        "tool",
+        "topic"
+      ],
+      "empty_instruction": 0,
+      "missing_or_empty_file_content": 40,
+      "instruction_task_index_artifacts": 8,
+      "topics": {
+        "Society": 5,
+        "Entertainment": 5,
+        "Acadamic": 5,
+        "Software Engineering": 5,
+        "Economy": 5,
+        "Health": 5,
+        "Education": 5,
+        "Puzzle": 5
+      }
+    },
+    "task_5.json": {
+      "rows": 40,
+      "unique_ids": 40,
+      "columns": [
+        "attached_file_name",
+        "instruction",
+        "target_file_name",
+        "task_index",
+        "task_type",
+        "tool",
+        "topic"
+      ],
+      "empty_instruction": 0,
+      "missing_or_empty_file_content": 40,
+      "instruction_task_index_artifacts": 8,
+      "topics": {
+        "Society": 5,
+        "Entertainment": 5,
+        "Acadamic": 5,
+        "Software Engineering": 5,
+        "Economy": 5,
+        "Health": 5,
+        "Education": 5,
+        "Puzzle": 5
+      }
+    },
+    "total": 200,
+    "global_duplicate_task_indices": 0,
+    "warning": "Raw author data preserved. Some instructions contain accidental task_index substitutions inside words; clean only in a separately versioned derivative. No solvable twins. Missing file_content is intentional in broken-reader/download tasks."
+  }
+}

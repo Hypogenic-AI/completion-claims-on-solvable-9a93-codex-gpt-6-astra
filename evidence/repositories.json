@@ -1,0 +1,20 @@
+[
+  {
+    "name": "impossiblebench",
+    "url": "https://github.com/safety-research/impossiblebench.git",
+    "path": "code/impossiblebench",
+    "sha": "d4f9a149db2b9cec0fed7bab01d91c07ee10aca2"
+  },
+  {
+    "name": "upward-deception",
+    "url": "https://github.com/QingyuLiu/Agentic-Upward-Deception.git",
+    "path": "code/upward-deception",
+    "sha": "b26151c7195111271feba64fb15db6227f25f51b"
+  },
+  {
+    "name": "feasigen",
+    "url": "https://github.com/LeonChengg/FeasiGen.git",
+    "path": "code/feasigen",
+    "sha": "f5a1a647cda11e4fc2a12ca8e35cb29ba7f0f76c"
+  }
+]

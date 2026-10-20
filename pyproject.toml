@@ -1,0 +1,21 @@
+[project]
+name = "research-workspace"
+version = "0.1.0"
+description = "Resources for paired completion-claim experiments"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "inspect-ai>=0.3.280",
+    "inspect-evals>=0.5.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "pillow>=12.3.0",
+    "pyarrow>=25.0.1",
+    "pymupdf<1.27",
+    "pypdf>=6.21.1",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "scipy>=1.15.3",
+    "transformers>=5.19.0",
+    "vllm>=0.5.0.post1",
+]

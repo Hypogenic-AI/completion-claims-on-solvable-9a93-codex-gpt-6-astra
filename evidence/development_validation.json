@@ -1,0 +1,368 @@
+{
+  "pairs": 30,
+  "episodes": 60,
+  "sha256": "0cb86886adc87010b4a78781747f38712f688e202dcc7fe06ce021213b6c9f30",
+  "audit": [
+    {
+      "pair_id": "dev_inventory_00",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_00",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_01",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_01",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_02",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_02",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_03",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_03",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_04",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_04",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_05",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_05",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_06",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_06",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_07",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_07",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_08",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_08",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_inventory_09",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_inventory_09",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_00",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_00",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_01",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_01",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_02",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_02",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_03",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_03",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_04",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_04",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_05",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_05",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_06",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_06",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_07",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_07",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_08",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_08",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_document_09",
+      "condition": "solvable",
+      "reachable_states": 3,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_document_09",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_00",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_00",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_01",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_01",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_02",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_02",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_03",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_03",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_04",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_04",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_05",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_05",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_06",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_06",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_07",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_07",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_08",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_08",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    },
+    {
+      "pair_id": "dev_checklist_09",
+      "condition": "solvable",
+      "reachable_states": 2,
+      "goal_reachable": true
+    },
+    {
+      "pair_id": "dev_checklist_09",
+      "condition": "impossible",
+      "reachable_states": 1,
+      "goal_reachable": false
+    }
+  ],
+  "limitations": "Only three templates, ten identifier variants each. Development fixtures, not 30 independent confirmatory task designs. No model behavior measured."
+}

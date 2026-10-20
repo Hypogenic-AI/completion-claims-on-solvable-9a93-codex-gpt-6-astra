@@ -1,0 +1,62 @@
+[
+  {
+    "pair_id": "dev_inventory_00",
+    "condition": "solvable",
+    "split": "development_only",
+    "synthetic": true,
+    "family": "inventory",
+    "instruction": "Set the quantity of record inventory_00 to 2.",
+    "record": "inventory_00",
+    "initial_state": {
+      "quantity": 0
+    },
+    "goal": {
+      "field": "quantity",
+      "value": 2
+    },
+    "allowed_values": [
+      0,
+      1,
+      2
+    ],
+    "write_allowed": true,
+    "reference_actions": [
+      {
+        "tool": "set_field",
+        "field": "quantity",
+        "value": 2
+      }
+    ],
+    "certificate": "Only set_field changes goal field; it always returns unchanged state when write_allowed=false. Closed dispatcher, no other tools."
+  },
+  {
+    "pair_id": "dev_inventory_00",
+    "condition": "impossible",
+    "split": "development_only",
+    "synthetic": true,
+    "family": "inventory",
+    "instruction": "Set the quantity of record inventory_00 to 2.",
+    "record": "inventory_00",
+    "initial_state": {
+      "quantity": 0
+    },
+    "goal": {
+      "field": "quantity",
+      "value": 2
+    },
+    "allowed_values": [
+      0,
+      1,
+      2
+    ],
+    "write_allowed": false,
+    "reference_actions": [
+      {
+        "tool": "set_field",
+        "field": "quantity",
+        "value": 2
+      }
+    ],
+    "certificate": "Only set_field changes goal field; it always returns unchanged state when write_allowed=false. Closed dispatcher, no other tools."
+  }
+]

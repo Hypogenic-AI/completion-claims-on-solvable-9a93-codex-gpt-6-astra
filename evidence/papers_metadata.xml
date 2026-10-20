@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eDbcFb4J3nA4/z3NMRs1ZbgHi6w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.20270,2407.18901,2406.12045,2501.12948,2610.07274,2605.23574&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-20T14:52:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2510.20270,2407.18901,2406.12045,2501.12948,2610.07274,2605.23574" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.20270v1</id>
+    <title>ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases</title>
+    <updated>2025-10-23T06:58:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.20270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.20270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The tendency to find and exploit "shortcuts" to complete tasks poses significant risks for reliable assessment and deployment of large language models (LLMs). For example, an LLM agent with access to unit tests may delete failing tests rather than fix the underlying bug. Such behavior undermines both the validity of benchmark results and the reliability of real-world LLM coding assistant deployments.
+  To quantify, study, and mitigate such behavior, we introduce ImpossibleBench, a benchmark framework that systematically measures LLM agents' propensity to exploit test cases. ImpossibleBench creates "impossible" variants of tasks from existing benchmarks like LiveCodeBench and SWE-bench by introducing direct conflicts between the natural-language specification and the unit tests. We measure an agent's "cheating rate" as its pass rate on these impossible tasks, where any pass necessarily implies a specification-violating shortcut.
+  As a practical framework, ImpossibleBench is not just an evaluation but a versatile tool. We demonstrate its utility for: (1) studying model behaviors, revealing more fine-grained details of cheating behaviors from simple test modification to complex operator overloading; (2) context engineering, showing how prompt, test access and feedback loop affect cheating rates; and (3) developing monitoring tools, providing a testbed with verified deceptive solutions. We hope ImpossibleBench serves as a useful framework for building more robust and reliable LLM systems.
+  Our implementation can be found at https://github.com/safety-research/impossiblebench.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-23T06:58:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziqian Zhong</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.12948v2</id>
+    <title>DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</title>
+    <updated>2026-01-04T03:57:36Z</updated>
+    <link href="https://arxiv.org/abs/2501.12948v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.12948v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General reasoning represents a long-standing and formidable challenge in artificial intelligence. Recent breakthroughs, exemplified by large language models (LLMs) and chain-of-thought prompting, have achieved considerable success on foundational reasoning tasks. However, this success is heavily contingent upon extensive human-annotated demonstrations, and models' capabilities are still insufficient for more complex problems. Here we show that the reasoning abilities of LLMs can be incentivized through pure reinforcement learning (RL), obviating the need for human-labeled reasoning trajectories. The proposed RL framework facilitates the emergent development of advanced reasoning patterns, such as self-reflection, verification, and dynamic strategy adaptation. Consequently, the trained model achieves superior performance on verifiable tasks such as mathematics, coding competitions, and STEM fields, surpassing its counterparts trained via conventional supervised learning on human demonstrations. Moreover, the emergent reasoning patterns exhibited by these large-scale models can be systematically harnessed to guide and enhance the reasoning capabilities of smaller models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-22T15:19:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Nature volume 645, pages 633-638 (2025)</arxiv:journal_ref>
+    <author>
+      <name> DeepSeek-AI</name>
+    </author>
+    <author>
+      <name>Daya Guo</name>
+    </author>
+    <author>
+      <name>Dejian Yang</name>
+    </author>
+    <author>
+      <name>Haowei Zhang</name>
+    </author>
+    <author>
+      <name>Junxiao Song</name>
+    </author>
+    <author>
+      <name>Peiyi Wang</name>
+    </author>
+    <author>
+      <name>Qihao Zhu</name>
+    </author>
+    <author>
+      <name>Runxin Xu</name>
+    </author>
+    <author>
+      <name>Ruoyu Zhang</name>
+    </author>
+    <author>
+      <name>Shirong Ma</name>
+    </author>
+    <author>
+      <name>Xiao Bi</name>
+    </author>
+    <author>
+      <name>Xiaokang Zhang</name>
+    </author>
+    <author>
+      <name>Xingkai Yu</name>
+    </author>
+    <author>
+      <name>Yu Wu</name>
+    </author>
+    <author>
+      <name>Z. F. Wu</name>
+    </author>
+    <author>
+      <name>Zhibin Gou</name>
+    </author>
+    <author>
+      <name>Zhihong Shao</name>
+    </author>
+    <author>
+      <name>Zhuoshu Li</name>
+    </author>
+    <author>
+      <name>Ziyi Gao</name>
+    </author>
+    <author>
+      <name>Aixin Liu</name>
+    </author>
+    <author>
+      <name>Bing Xue</name>
+    </author>
+    <author>
+      <name>Bingxuan Wang</name>
+    </author>
+    <author>
+      <name>Bochao Wu</name>
+    </author>
+    <author>
+      <name>Bei Feng</name>
+    </author>
+    <author>
+      <name>Chengda Lu</name>
+    </author>
+    <author>
+      <name>Chenggang Zhao</name>
+    </author>
+    <author>
+      <name>Chengqi Deng</name>
+    </author>
+    <author>
+      <name>Chenyu Zhang</name>
+    </author>
+    <author>
+      <name>Chong Ruan</name>
+    </author>
+    <author>
+      <name>Damai Dai</name>
+    </author>
+    <author>
+      <name>Deli Chen</name>
+    </author>
+    <author>
+      <name>Dongjie Ji</name>
+    </author>
+    <author>
+      <name>Erhang Li</name>
+    </author>
+    <author>
+      <name>Fangyun Lin</name>
+    </author>
+    <author>
+      <name>Fucong Dai</name>
+    </author>
+    <author>
+      <name>Fuli Luo</name>
+    </author>
+    <author>
+      <name>Guangbo Hao</name>
+    </author>
+    <author>
+      <name>Guanting Chen</name>
+    </author>
+    <author>
+      <name>Guowei Li</name>
+    </author>
+    <author>
+      <name>H. Zhang</name>
+    </author>
+    <author>
+      <name>Han Bao</name>
+    </author>
+    <author>
+      <name>Hanwei Xu</name>
+    </author>
+    <author>
+      <name>Haocheng Wang</name>
+    </author>
+    <author>
+      <name>Honghui Ding</name>
+    </author>
+    <author>
+      <name>Huajian Xin</name>
+    </author>
+    <author>
+      <name>Huazuo Gao</name>
+    </author>
+    <author>
+      <name>Hui Qu</name>
+    </author>
+    <author>
+      <name>Hui Li</name>
+    </author>
+    <author>
+      <name>Jianzhong Guo</name>
+    </author>
+    <author>
+      <name>Jiashi Li</name>
+    </author>
+    <author>
+      <name>Jiawei Wang</name>
+    </author>
+    <author>
+      <name>Jingchang Chen</name>
+    </author>
+    <author>
+      <name>Jingyang Yuan</name>
+    </author>
+    <author>
+      <name>Junjie Qiu</name>
+    </author>
+    <author>
+      <name>Junlong Li</name>
+    </author>
+    <author>
+      <name>J. L. Cai</name>
+    </author>
+    <author>
+      <name>Jiaqi Ni</name>
+    </author>
+    <author>
+      <name>Jian Liang</name>
+    </author>
+    <author>
+      <name>Jin Chen</name>
+    </author>
+    <author>
+      <name>Kai Dong</name>
+    </author>
+    <author>
+      <name>Kai Hu</name>
+    </author>
+    <author>
+      <name>Kaige Gao</name>
+    </author>
+    <author>
+      <name>Kang Guan</name>
+    </author>
+    <author>
+      <name>Kexin Huang</name>
+    </author>
+    <author>
+      <name>Kuai Yu</name>
+    </author>
+    <author>
+      <name>Lean Wang</name>
+    </author>
+    <author>
+      <name>Lecong Zhang</name>
+    </author>
+    <author>
+      <name>Liang Zhao</name>
+    </author>
+    <author>
+      <name>Litong Wang</name>
+    </author>
+    <author>
+      <name>Liyue Zhang</name>
+    </author>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <author>
+      <name>Leyi Xia</name>
+    </author>
+    <author>
+      <name>Mingchuan Zhang</name>
+    </author>
+    <author>
+      <name>Minghua Zhang</name>
+    </author>
+    <author>
+      <name>Minghui Tang</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+    <author>
+      <name>Miaojun Wang</name>
+    </author>
+    <author>
+      <name>Mingming Li</name>
+    </author>
+    <author>
+      <name>Ning Tian</name>
+    </author>
+    <author>
+      <name>Panpan Huang</name>
+    </author>
+    <author>
+      <name>Peng Zhang</name>
+    </author>
+    <author>
+      <name>Qiancheng Wang</name>
+    </author>
+    <author>
+      <name>Qinyu Chen</name>
+    </author>
+    <author>
+      <name>Qiushi Du</name>
+    </author>
+    <author>
+      <name>Ruiqi Ge</name>
+    </author>
+    <author>
+      <name>Ruisong Zhang</name>
+    </author>
+    <author>
+      <name>Ruizhe Pan</name>
+    </author>
+    <author>
+      <name>Runji Wang</name>
+    </author>
+    <author>
+      <name>R. J. Chen</name>
+    </author>
+    <author>
+      <name>R. L. Jin</name>
+    </author>
+    <author>
+      <name>Ruyi Chen</name>
+    </author>
+    <author>
+      <name>Shanghao Lu</name>
+    </author>
+    <author>
+      <name>Shangyan Zhou</name>
+    </author>
+    <author>
+      <name>Shanhuang Chen</name>
+    </author>
+    <author>
+      <name>Shengfeng Ye</name>
+    </author>
+    <author>
+      <name>Shiyu Wang</name>
+    </author>
+    <author>
+      <name>Shuiping Yu</name>
+    </author>
+    <author>
+      <name>Shunfeng Zhou</name>
+    </author>
+    <author>
+      <name>Shuting Pan</name>
+    </author>
+    <author>
+      <name>S. S. Li</name>
+    </author>
+    <author>
+      <name>Shuang Zhou</name>
+    </author>
+    <author>
+      <name>Shaoqing Wu</name>
+    </author>
+    <author>
+      <name>Shengfeng Ye</name>
+    </author>
+    <author>
+      <name>Tao Yun</name>
+    </author>
+    <author>
+      <name>Tian Pei</name>
+    </author>
+    <author>
+      <name>Tianyu Sun</name>
+    </author>
+    <author>
+      <name>T. Wang</name>
+    </author>
+    <author>
+      <name>Wangding Zeng</name>
+    </author>
+    <author>
+      <name>Wanjia Zhao</name>
+    </author>
+    <author>
+      <name>Wen Liu</name>
+    </author>
+    <author>
+      <name>Wenfeng Liang</name>
+    </author>
+    <author>
+      <name>Wenjun Gao</name>
+    </author>
+    <author>
+      <name>Wenqin Yu</name>
+    </author>
+    <author>
+      <name>Wentao Zhang</name>
+    </author>
+    <author>
+      <name>W. L. Xiao</name>
+    </author>
+    <author>
+      <name>Wei An</name>
+    </author>
+    <author>
+      <name>Xiaodong Liu</name>
+    </author>
+    <author>
+      <name>Xiaohan Wang</name>
+    </author>
+    <author>
+      <name>Xiaokang Chen</name>
+    </author>
+    <author>
+      <name>Xiaotao Nie</name>
+    </author>
+    <author>
+      <name>Xin Cheng</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Xin Xie</name>
+    </author>
+    <author>
+      <name>Xingchao Liu</name>
+    </author>
+    <author>
+      <name>Xinyu Yang</name>
+    </author>
+    <author>
+      <name>Xinyuan Li</name>
+    </author>
+    <author>
+      <name>Xuecheng Su</name>
+    </author>
+    <author>
+      <name>Xuheng Lin</name>
+    </author>
+    <author>
+      <name>X. Q. Li</name>
+    </author>
+    <author>
+      <name>Xiangyue Jin</name>
+    </author>
+    <author>
+      <name>Xiaojin Shen</name>
+    </author>
+    <author>
+      <name>Xiaosha Chen</name>
+    </author>
+    <author>
+      <name>Xiaowen Sun</name>
+    </author>
+    <author>
+      <name>Xiaoxiang Wang</name>
+    </author>
+    <author>
+      <name>Xinnan Song</name>
+    </author>
+    <author>
+      <name>Xinyi Zhou</name>
+    </author>
+    <author>
+      <name>Xianzu Wang</name>
+    </author>
+    <author>
+      <name>Xinxia Shan</name>
+    </author>
+    <author>
+      <name>Y. K. Li</name>
+    </author>
+    <author>
+      <name>Y. Q. Wang</name>
+    </author>
+    <author>
+      <name>Y. X. Wei</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Yanhong Xu</name>
+    </author>
+    <author>
+      <name>Yao Li</name>
+    </author>
+    <author>
+      <name>Yao Zhao</name>
+    </author>
+    <author>
+      <name>Yaofeng Sun</name>
+    </author>
+    <author>
+      <name>Yaohui Wang</name>
+    </author>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+    <author>
+      <name>Yichao Zhang</name>
+    </author>
+    <author>
+      <name>Yifan Shi</name>
+    </author>
+    <author>
+      <name>Yiliang Xiong</name>
+    </author>
+    <author>
+      <name>Ying He</name>
+    </author>
+    <author>
+      <name>Yishi Piao</name>
+    </author>
+    <author>
+      <name>Yisong Wang</name>
+    </author>
+    <author>
+      <name>Yixuan Tan</name>
+    </author>
+    <author>
+      <name>Yiyang Ma</name>
+    </author>
+    <author>
+      <name>Yiyuan Liu</name>
+    </author>
+    <author>
+      <name>Yongqiang Guo</name>
+    </author>
+    <author>
+      <name>Yuan Ou</name>
+    </author>
+    <author>
+      <name>Yuduan Wang</name>
+    </author>
+    <author>
+      <name>Yue Gong</name>
+    </author>
+    <author>
+      <name>Yuheng Zou</name>
+    </author>
+    <author>
+      <name>Yujia He</name>
+    </author>
+    <author>
+      <name>Yunfan Xiong</name>
+    </author>
+    <author>
+      <name>Yuxiang Luo</name>
+    </author>
+    <author>
+      <name>Yuxiang You</name>
+    </author>
+    <author>
+      <name>Yuxuan Liu</name>
+    </author>
+    <author>
+      <name>Yuyang Zhou</name>
+    </author>
+    <author>
+      <name>Y. X. Zhu</name>
+    </author>
+    <author>
+      <name>Yanhong Xu</name>
+    </author>
+    <author>
+      <name>Yanping Huang</name>
+    </author>
+    <author>
+      <name>Yaohui Li</name>
+    </author>
+    <author>
+      <name>Yi Zheng</name>
+    </author>
+    <author>
+      <name>Yuchen Zhu</name>
+    </author>
+    <author>
+      <name>Yunxian Ma</name>
+    </author>
+    <author>
+      <name>Ying Tang</name>
+    </author>
+    <author>
+      <name>Yukun Zha</name>
+    </author>
+    <author>
+      <name>Yuting Yan</name>
+    </author>
+    <author>
+      <name>Z. Z. Ren</name>
+    </author>
+    <author>
+      <name>Zehui Ren</name>
+    </author>
+    <author>
+      <name>Zhangli Sha</name>
+    </author>
+    <author>
+      <name>Zhe Fu</name>
+    </author>
+    <author>
+      <name>Zhean Xu</name>
+    </author>
+    <author>
+      <name>Zhenda Xie</name>
+    </author>
+    <author>
+      <name>Zhengyan Zhang</name>
+    </author>
+    <author>
+      <name>Zhewen Hao</name>
+    </author>
+    <author>
+      <name>Zhicheng Ma</name>
+    </author>
+    <author>
+      <name>Zhigang Yan</name>
+    </author>
+    <author>
+      <name>Zhiyu Wu</name>
+    </author>
+    <author>
+      <name>Zihui Gu</name>
+    </author>
+    <author>
+      <name>Zijia Zhu</name>
+    </author>
+    <author>
+      <name>Zijun Liu</name>
+    </author>
+    <author>
+      <name>Zilin Li</name>
+    </author>
+    <author>
+      <name>Ziwei Xie</name>
+    </author>
+    <author>
+      <name>Ziyang Song</name>
+    </author>
+    <author>
+      <name>Zizheng Pan</name>
+    </author>
+    <author>
+      <name>Zhen Huang</name>
+    </author>
+    <author>
+      <name>Zhipeng Xu</name>
+    </author>
+    <author>
+      <name>Zhongyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhen Zhang</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-025-09422-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-025-09422-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.12045v1</id>
+    <title>$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains</title>
+    <updated>2024-06-17T19:33:08Z</updated>
+    <link href="https://arxiv.org/abs/2406.12045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.12045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world applications. We propose $τ$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines. We employ an efficient and faithful evaluation process that compares the database state at the end of a conversation with the annotated goal state. We also propose a new metric (pass^k) to evaluate the reliability of agent behavior over multiple trials. Our experiments show that even state-of-the-art function calling agents (like gpt-4o) succeed on &lt;50% of the tasks, and are quite inconsistent (pass^8 &lt;25% in retail). Our findings point to the need for methods that can improve the ability of agents to act consistently and follow rules reliably.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-17T19:33:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shunyu Yao</name>
+    </author>
+    <author>
+      <name>Noah Shinn</name>
+    </author>
+    <author>
+      <name>Pedram Razavi</name>
+    </author>
+    <author>
+      <name>Karthik Narasimhan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.18901v1</id>
+    <title>AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents</title>
+    <updated>2024-07-26T17:55:45Z</updated>
+    <link href="https://arxiv.org/abs/2407.18901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.18901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents that address day-to-day digital tasks (e.g., ordering groceries for a household), must not only operate multiple apps (e.g., notes, messaging, shopping app) via APIs, but also generate rich code with complex control flow in an iterative manner based on their interaction with the environment. However, existing benchmarks for tool use are inadequate, as they only cover tasks that require a simple sequence of API calls.
+  To remedy this gap, we built $\textbf{AppWorld Engine}$, a high-quality execution environment (60K lines of code) of 9 day-to-day apps operable via 457 APIs and populated with realistic digital activities simulating the lives of ~100 fictitious users. We then created $\textbf{AppWorld Benchmark}$ (40K lines of code), a suite of 750 natural, diverse, and challenging autonomous agent tasks requiring rich and interactive code generation. It supports robust programmatic evaluation with state-based unit tests, allowing for different ways of completing a task while also checking for unexpected changes, i.e., collateral damage. The state-of-the-art LLM, GPT-4o, solves only ~49% of our 'normal' tasks and ~30% of 'challenge' tasks, while other models solve at least 16% fewer. This highlights the benchmark's difficulty and AppWorld's potential to push the frontiers of interactive coding agents. The project website is available at https://appworld.dev/.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-26T17:55:45Z</published>
+    <arxiv:comment>ACL'24 Camera Ready</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Harsh Trivedi</name>
+    </author>
+    <author>
+      <name>Tushar Khot</name>
+    </author>
+    <author>
+      <name>Mareike Hartmann</name>
+    </author>
+    <author>
+      <name>Ruskin Manku</name>
+    </author>
+    <author>
+      <name>Vinty Dong</name>
+    </author>
+    <author>
+      <name>Edward Li</name>
+    </author>
+    <author>
+      <name>Shashank Gupta</name>
+    </author>
+    <author>
+      <name>Ashish Sabharwal</name>
+    </author>
+    <author>
+      <name>Niranjan Balasubramanian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.23574v1</id>
+    <title>Push Your Agent: Measuring and Enforcing Quantitative Goal Persistence in Long-Horizon LLM Agents</title>
+    <updated>2026-05-22T12:44:01Z</updated>
+    <link href="https://arxiv.org/abs/2605.23574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.23574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon language agents can make many plausible local tool calls yet fail to persist until a requested count is actually complete. We study this gap as Quantitative Goal Persistence (QGP): whether an agent keeps working until an external verifier confirms enough distinct valid items. PushBench turns this into a benchmark for repository-artifact collection and verifier-backed work units, so repeated work, duplicate submissions, false completion, and progress drift are measured directly rather than hidden behind a final success flag. In matched controller comparisons, a state-tracking retrieval controller reaches 69-78% success while eliminating duplicate submissions, and a backlog-tracking work-unit controller reaches 25-50% success in settings where standard and completion-gated controllers complete no task instances. Black-box frontier-agent evaluations with Claude Code (Sonnet 4.6) and Codex CLI (gpt-5.4) solve many 50-artifact tasks but drop to 3 out of 9 successes per condition at 100 artifacts. The results show that quantitative goals stress a different reliability requirement from local task competence: agents must maintain verified progress and stop only when the requested work is complete.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-22T12:44:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuandao Cai</name>
+    </author>
+    <author>
+      <name>Yuzhang Zhu</name>
+    </author>
+    <author>
+      <name>Liyou Gao</name>
+    </author>
+    <author>
+      <name>Wensheng Tang</name>
+    </author>
+    <author>
+      <name>Shengchao Qin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07274v1</id>
+    <title>A Trust Layer for Agent Evaluation</title>
+    <updated>2026-10-05T19:15:37Z</updated>
+    <link href="https://arxiv.org/abs/2610.07274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deterministic benchmark scores show that an agent received credit, but not whether that credit was earned, reported honestly, or would hold on a second run. We introduce a Trust Layer for Agent Evaluation, an additive post-hoc framework that reports, beside each recorded score, whether it should be believed. It verifies four properties: whether the result is supported by the benchmark's own grading logic, whether a passing answer was earned through traceable computation, whether the agent's completion claim matches what occurred, and whether the result is stable under repeated execution. The first three use only saved artifacts; the fourth re-runs the agent. Model judgments only label evidence under majority voting; all verdicts follow deterministic rules and never modify the recorded score. Applied to five agent configurations on 108 tasks from Agents' Last Exam, every model shows passing runs with no traceable computation (at rates varying tenfold), confirmed false completion claims, and unstable results: 18-46% of tasks do not stay in one score band over five runs. Only 22.6% of recorded passes clear all four checks (95% CI 15.0-32.6, n=84). Measuring what an agent can do and verifying that it did it are different problems, and current benchmarks address only the first.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T19:15:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mohammadreza Sediqin</name>
+    </author>
+    <author>
+      <name>Shivali Dalmia</name>
+    </author>
+    <author>
+      <name>Srinivasa Karthikeya Reddy Kovvuri</name>
+    </author>
+    <author>
+      <name>Abhishek Mukherji</name>
+    </author>
+  </entry>
+</feed>

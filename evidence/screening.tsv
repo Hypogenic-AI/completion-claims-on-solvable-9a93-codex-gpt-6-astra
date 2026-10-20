@@ -1,0 +1,165 @@
+index	title	service_relevance	decision	reason
+0	From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+1	Are Your Agents Upward Deceivers?	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+2	Do Agents Know What They Can't Do? Evaluating Feasibility Awareness in Tool-Using Agents	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+3	MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+4	Heaviside Continuity of Rolling Coefficients for Eliminating Epistemic Entropy in Large Language Models	3	excluded_withdrawn	Author-withdrawn on arXiv; v2 and v3 marked withdrawn. Verified abstract page saved as evidence/hcrc_access.html. No substantive result used.
+5	FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+6	Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+7	Fabrication After Tool Failure: Tool-Augmented Agents Assert Values Their Tools Did Not Return	3	downloaded	Core or supporting abstract review; see paper catalog for depth
+8	Self-Challenging Language Model Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+9	ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+10	TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+11	BSBench: will your LLM find the largest prime number?	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+12	Quantifying Overclaiming Propensity in Frontier LLM Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+13	DriftBench: Detecting LLM Coding Agent Cheating via Specification-Level Constraint Drift Mutation	2	unavailable	Core or supporting abstract review; see paper catalog for depth
+14	Refusing the Impossible: A Taxonomy and Benchmark for Code Hallucination in Large Language Models	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+15	Protective Capacity Hallucination: When Large Language Models Claim Nonexistent Capabilities	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+16	Push Your Agent: Measuring and Enforcing Quantitative Goal Persistence in Long-Horizon LLM Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+17	SafeRedirect: Defeating Internal Safety Collapse via Task-Completion Redirection in Frontier LLMs	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+18	Agentic Self-Awareness: Aligning Knowing, Acting, and Holding	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+19	Position: Correct Answer, Wrong Mechanism - When AI Scientists Defend General Claims Their Own Data Contradicts	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+20	Guardrails as Scapegoats: Auditing Unfaithful Safety Refusals in Tool-Augmented LLM Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+21	Done, But Not Sure: Disentangling World Completion from Self-Termination in Embodied Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+22	Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+23	The Troy Moment: How LLM Agents Adjudicate the Decision Point Under Impossible Tasks, Claimed Authority, and Peer Information	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+24	What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+25	Evaluating LLM Agents on Automated Software Analysis Tasks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+26	A Trust Layer for Agent Evaluation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+27	Goal-Autopilot: A Verifiable Anti-Fabrication Firewall for Unattended Long-Horizon Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+28	A Competing-Hazards Systematization of Loss of Control in Autonomous Agents	2	downloaded	Core or supporting abstract review; see paper catalog for depth
+29	MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+30	Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+31	Theory of Mind for Multi-Agent Collaboration via Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+32	DevicesWorld: Benchmarking Cross-Device Agents in Heterogeneous Environments	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+33	ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+34	Human-on-the-Bridge: Scalable Evaluation for AI Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+35	Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+36	STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+37	Affordable Generative Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+38	RealClawBench: Live OpenClaw Benchmarks from Real Developer-Agent Sessions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+39	CURA: Certified Runtime Alarms for Computer-Use Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+40	EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+41	fastWorkflow: Closing the Performance Gap Between Small and Frontier Language Models for Conversational Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+42	When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+43	StressWeb: A Diagnostic Benchmark for Web Agent Robustness under Realistic Interaction Variability	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+44	LLMs are Capable of Misaligned Behavior Under Explicit Prohibition and Surveillance	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+45	Constructing Challenging Browser-Use Tasks by Controlled Environment Interventions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+46	Characterizing Unintended Consequences in Human-GUI Agent Collaboration for Web Browsing	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+47	DiagEval: Trajectory-Conditioned Diagnosis for Reliable Software Evaluation with GUI Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+48	ATOBench: Tracing How Autonomous Penetration-Testing Agents Verify Vulnerabilities When Target Evidence Lies	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+49	Do Tool Calls Execute as Intended? Measuring and Repairing Intent-Execution Correspondence in LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+50	AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+51	VAmoS Bench: Voice Agent Simulation Bench	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+52	CodeActionBench: Evaluating Agentic Code-as-Policy for Embodied Manipulation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+53	Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+54	HalluWorld: A Controlled Benchmark for Hallucination via Reference World Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+55	Articulate but Wrong: Self-Review Failures in LLM-Based Code Modernization	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+56	Mitigating Manipulation and Enhancing Persuasion: A Reflective Multi-Agent Approach for Legal Argument Generation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+57	The Verifier Tax: Horizon Dependent Safety--Success Tradeoffs in Tool Using LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+58	Beyond Task Completion: Revealing Corrupt Success in LLM Agents through Procedure-Aware Evaluation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+59	An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+60	AgentBench: Evaluating LLMs as Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+61	Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+62	Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+63	"""You're Right, Let Me Fix It"": How LLM Agents Damage Correct Work When Falsely Accused"	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+64	Beyond Ideal Instruction: A Comprehensive Framework for Evaluating LLMs in Realistic Interactions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+65	BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+66	What Output-Only Review Cannot Verify: Study Contracts for Research Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+67	Process Evaluation for Agentic Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+68	Why Do Multi-Agent LLM Systems Fail?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+69	Effective Red-Teaming of Policy-Adherent Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+70	Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+71	FIRE-Bench: Evaluating AI Agents on the Rediscovery of Scientific Insights	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+72	Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+73	On the Failure of Latent State Persistence in Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+74	StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+75	AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+76	Igniting Language Intelligence: The Hitchhiker’s Guide from Chain-of-Thought Reasoning to Language Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+77	VeriLA: A Human-Centered Evaluation Framework for Interpretable Verification of LLM Agent Failures	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+78	Structural Baselines Matter for Agent Failure Detection and Attribution	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+79	Incentivizing Truthful Language Models via Peer Elicitation Games	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+80	From Question Answering to Task Completion: A Survey on Agent System and Harness Design	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+81	The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+82	Exploring the Interplay of Theory of Mind, Logic Validation, and Advanced Retrieval in LLM-Based Multi-Agent Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+83	Benchmarking Mobile Device Control Agents across Diverse Configurations	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+84	Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+85	Agentic Uncertainty Reveals Agentic Overconfidence	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+86	Bridging AI and Carbon Capture: A Dataset for LLMs in Ionic Liquids and CBE Research	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+87	A survey on large language model based autonomous agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+88	OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+89	Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+90	Establishing Best Practices for Building Rigorous Agentic Benchmarks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+91	TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+92	A Domain-specific Hallucination Evaluation Framework for AI Agents in Substation Operation and Maintenance Scenarios	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+93	The Vision of Autonomic Computing: Can LLMs Make It a Reality?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+94	ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+95	Scaling Synthetic Task Generation for Agents via Exploration	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+96	Learning API Functionality from In-Context Demonstrations for Tool-based Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+97	CheatBench: Measuring Reward Gaming in AI Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+98	EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+99	Failure-Centered Runtime Evaluation for Deployed Trilingual Public-Space Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+100	Harness as an Asset: Enforcing Determinism via the Convergent AI Agent Framework (CAAF)	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+101	Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+102	Mechanizing the User's Eye: Pre-Registered Deployment of a Sabotage-Validated Fail-Plausible Observer in a Production LLM Agent Runtime	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+103	HalluTracer: Hallucination Detection via Depth-Averaging Truth Signals	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+104	Aegis: Taxonomy and Optimizations for Overcoming Agent-Environment Failures in LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+105	SHIELDA: Structured Handling of Exceptions in LLM-Driven Agentic Workflows	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+106	When Agent Evaluation Becomes Unreliable: An Empirical Study of Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+107	When Roles Fail: Epistemic Constraints on Advocate Role Fidelity in LLM-Based Political Statement Analysis	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+108	AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+109	Internet of Agents: Fundamentals, Applications, and Challenges	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+110	AI-LieDar: Examine the Trade-off Between Utility and Truthfulness in LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+111	The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+112	Runaway is Ashamed, But Helpful: On the Early-Exit Behavior of Large Language Model-based Agents in Embodied Environments	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+113	AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+114	A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+115	Natural Emergent Misalignment from Reward Hacking in Production RL	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+116	D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+117	LumiMAS: A Comprehensive Framework for Real-Time Monitoring and Enhanced Observability in Multi-Agent Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+118	LinuxArena: A Control Setting for AI Agents in Live Production Software Environments	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+119	Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+120	AgentRewind: Recoverable Execution for Long-Horizon LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+121	Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems to Local Alignment	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+122	Async Control: Stress-testing Asynchronous Control Measures for LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+123	The Unreliable Progress Bar: Can LLM Agents Reliably Report Task Progress Throughout Execution?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+124	DPBench: Structural Determinants of Multi-Agent LLM Coordination Under Simultaneous Resource Contention	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+125	BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+126	Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+127	How Well Can Modern LLMs Act as Agent Cores in Radiology Environments?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+128	A Privacy-Aware Federated Framework With Self-Regulating Differential Privacy and Ontology-Based Lexical Substitution for Safe Clinical LLM Querying	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+129	Conditional Multi-Stage Failure Recovery for Embodied Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+130	Same Tasks, Different Apps: Why Mobile GUI Agents Fail to Generalize?	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+131	Recipe2Plan: Evaluating Planning Abilities of LLMs for Efficient and Feasible Multitasking with Time Constraints Between Actions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+132	Meta-Harness: End-to-End Optimization of Model Harnesses	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+133	Thought Propagation: An Analogical Approach to Complex Reasoning with Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+134	Exploring Autonomous Agents: A Closer Look at Why They Fail When Completing Tasks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+135	AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+136	When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+137	Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+138	Plug in the Safety Chip: Enforcing Constraints for LLM-driven Robot Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+139	GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+140	AgentAtlas: Beyond Outcome Leaderboards for LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+141	"""Here, Let Me Help"": An Empirical Study of User Interventions in Human–Web Agent Collaboration"	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+142	A survey of reward hacking in agentic large language model systems	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+143	Automated Structural Testing of LLM-Based Agents: Methods, Framework, and Case Studies	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+144	Agent-SafetyBench: Evaluating the Safety of LLM Agents	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+145	Sentry: Learning to Recover from LLM Agent Failures at Test Time	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+146	Gorilla: Large Language Model Connected with Massive APIs	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+147	Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+148	AgentBrew: Offline Tool-Use Agent Learning from Raw Real-World Trajectories	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+149	Reliability Challenges of LLM Agents: Systemic Failure Causes and Governance	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+150	EvilGenie: A Reward Hacking Benchmark	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+151	Closing the Reflection Gap: A Free Calibration Bonus for Agentic RL	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+152	Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+153	GUIDE: Interpretable GUI Agent Evaluation via Hierarchical Diagnosis	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+154	Hack-Verifiable Terminal Bench: Evaluating Reward Hacking in Terminal Tasks	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+155	CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+156	TracePilot: Self-Verifiable Framework for Decentralized Applications Fault Localization across Transactions	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+157	Narration-of-Thought: Inference-Time Scaffolding for Defeasible Ethical Reasoning in Large Language Models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+158	Just A Rather Very Intelligent Spoken Agent	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+159	Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval models	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+160	SafeToolBench: Pioneering a Prospective Benchmark to Evaluating Tool Utilization Safety in LLMs	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+161	Pragmatic Failure in Agentic LLM Systems: An Analysis Through Gricean Maxims and Speech Act Theory	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+162	Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction
+163	SovereignPA-Bench: Evaluating User-Owned Personal Agents under Evolving Intent, Platform Mediation, and Consent Constraints	1	title_screen_excluded	Peripheral score-1 candidate; preserve metadata, no additional implementation direction

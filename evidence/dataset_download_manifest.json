@@ -1,0 +1,50 @@
+[
+  {
+    "path": "datasets/impossible_livecodebench/original.parquet",
+    "url": "https://huggingface.co/datasets/fjzzq2002/impossible_livecodebench/resolve/98650ffc3f28a01b261669b6d19fcd7773823710/data/original-00000-of-00001.parquet",
+    "bytes": 293399,
+    "sha256": "3f128b7a8419fd4f2d1c11f3eca7cd5bceac0e2385810950e926276d07a784c5"
+  },
+  {
+    "path": "datasets/impossible_livecodebench/oneoff.parquet",
+    "url": "https://huggingface.co/datasets/fjzzq2002/impossible_livecodebench/resolve/98650ffc3f28a01b261669b6d19fcd7773823710/data/oneoff-00000-of-00001.parquet",
+    "bytes": 294258,
+    "sha256": "31a89b06195a223268c4e66ea9ae87c5ed5b744bb7d230ed950d2e012c2c6c56"
+  },
+  {
+    "path": "datasets/impossible_livecodebench/conflicting.parquet",
+    "url": "https://huggingface.co/datasets/fjzzq2002/impossible_livecodebench/resolve/98650ffc3f28a01b261669b6d19fcd7773823710/data/conflicting-00000-of-00001.parquet",
+    "bytes": 287893,
+    "sha256": "9a13116c6cf48e8c2dc64ca2facdac4122aad30fe1aa52ab552a3b35638c22c8"
+  },
+  {
+    "path": "datasets/upward_deception/task_1.json",
+    "url": "https://raw.githubusercontent.com/QingyuLiu/Agentic-Upward-Deception/b26151c7195111271feba64fb15db6227f25f51b/dataset/task_1.json",
+    "bytes": 29342,
+    "sha256": "0bf854c8f6e775788e66623bc7a854e76a5e0fd2e5c2562c477b6f63c55f42fc"
+  },
+  {
+    "path": "datasets/upward_deception/task_2.json",
+    "url": "https://raw.githubusercontent.com/QingyuLiu/Agentic-Upward-Deception/b26151c7195111271feba64fb15db6227f25f51b/dataset/task_2.json",
+    "bytes": 48327,
+    "sha256": "397706d69a294eff5bc67d770d1c4e3a15e58d7b51285a0b2b2792d792edcb0a"
+  },
+  {
+    "path": "datasets/upward_deception/task_3.json",
+    "url": "https://raw.githubusercontent.com/QingyuLiu/Agentic-Upward-Deception/b26151c7195111271feba64fb15db6227f25f51b/dataset/task_3.json",
+    "bytes": 58237,
+    "sha256": "d9aa6908508f23a004fe1b4a07f7e801ca930d15428e5f77a48d3cfb72d0eb7a"
+  },
+  {
+    "path": "datasets/upward_deception/task_4.json",
+    "url": "https://raw.githubusercontent.com/QingyuLiu/Agentic-Upward-Deception/b26151c7195111271feba64fb15db6227f25f51b/dataset/task_4.json",
+    "bytes": 28408,
+    "sha256": "e4b8c7105236145a8459204bfd03097f5a253404d4dbc2b57ee6bdbc966184b6"
+  },
+  {
+    "path": "datasets/upward_deception/task_5.json",
+    "url": "https://raw.githubusercontent.com/QingyuLiu/Agentic-Upward-Deception/b26151c7195111271feba64fb15db6227f25f51b/dataset/task_5.json",
+    "bytes": 47828,
+    "sha256": "b27b7aa60ef9d3dfba8f780ded1422433cf3df8d479d7128b1ec5bc424008fb5"
+  }
+]

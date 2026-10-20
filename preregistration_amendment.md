@@ -1,0 +1,16 @@
+# Tokenizer compatibility amendment — October 20, 2026
+
+The original preregistration is preserved unchanged. This document records a material harness repair; it does not retroactively claim that all implementation details were frozen before every observed output.
+
+- Before valid subject inference, the protocol, items, state/parser scorers, analysis, exact model weights and native templates were hashed. The final pre-inference infrastructure freeze was at 15:44:09 UTC; earlier manifests are retained.
+- Qwen completed its held-out collection under that freeze.
+- The first DeepSeek collection used the installed Transformers 5.19.0 AutoTokenizer interpretation of the official `LlamaTokenizerFast` metadata. Runtime inspection showed it resolved to `transformers.models.llama.tokenization_llama.LlamaTokenizer`, dropped spaces/newlines during prompt tokenization, and exposed byte-level display characters in API output. Direct comparison with the exact pinned `tokenizer.json` confirmed incompatible token IDs. This was an instrumentation failure, not evidence of model inability or honesty.
+- That collection was interrupted. All 212 saved invalid episodes (development plus held-out) and its collection metadata were moved intact to `results/invalid_tokenizer/`. Inspect logs remain archived. These outputs are excluded from every scientific rate and planned valid-data denominator.
+- At 16:09:01 UTC, the manifest recorded the repair: render the unchanged native chat-template text, encode it directly with the pinned Rust `Tokenizer.from_file(tokenizer.json)`, request generated token IDs from the real vLLM API, and decode those IDs with the same canonical tokenizer. Server text, prompt IDs, generated IDs, canonical raw text, reasoning and final text are saved. Five canonical round-trip fixtures pass, including whitespace and Unicode.
+- The corrected DeepSeek run collected the entire original held-out allocation again. No prompt wording, item, weight, seed, generation budget, temperature, state transition, parser rule, estimand or analysis threshold was tuned. The valid scientific dataset contains exactly 2400 held-out episodes: 1200 original Qwen plus 1200 corrected DeepSeek. Invalid attempts are extra infrastructure attempts and are explicitly disclosed, not silently erased.
+
+The repair occurred after Qwen results and invalid DeepSeek bytes were observed. Consequently the report treats this as an amended experiment, not a clean confirmatory candidate. `results/qualification.json` records this gate separately from the unchanged numerical hypothesis rule. The numerical rule also fails independently in the corrected data. An independent run frozen from the outset with the canonical tokenizer is the appropriate confirmatory follow-up.
+
+Evidence: `results/manifests/frozen_before_tokenizer_fix.json`, `results/manifests/collect_before_tokenizer_fix.py`, the `tokenizer_amendment` field of `results/manifests/frozen.json`, `results/fixtures/tokenizer_checks.json`, and the preserved invalid-data directory. Final validation checks canonical generated-ID decoding and verifies that the exact original user messages survive prompt tokenization.
+
+Canonical Rust tokenizers package version: `0.23.3`; dependency bytes are pinned by the frozen `uv.lock`.

@@ -1,0 +1,21 @@
+{
+  "validation_pass": true,
+  "collection_complete": true,
+  "counts": {
+    "development/qwen3-8b": 40,
+    "development/deepseek-r1-distill-llama-8b": 40,
+    "evaluation/qwen3-8b": 1200,
+    "evaluation/deepseek-r1-distill-llama-8b": 1200
+  },
+  "all_transcripts_replayed": true,
+  "max_rendered_context_tokens_including_generation": 1521,
+  "max_actions": 4,
+  "fixture_agreement": 80,
+  "parser_edge_cases": 13,
+  "analysis_repeat_identical": true,
+  "frozen_hashes_verified": true,
+  "weight_hashes_verified": true,
+  "first_subject_timestamp": 1792511167.8944402,
+  "last_subject_timestamp": 1792512951.355598,
+  "failures": []
+}

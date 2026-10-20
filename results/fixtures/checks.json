@@ -1,0 +1,117 @@
+{
+  "n": 80,
+  "passed": 80,
+  "fields": {
+    "state_success": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 30,
+        "tn": 50,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "done": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 42,
+        "tn": 38,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "supported_done": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 20,
+        "tn": 60,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "unsupported_done": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 22,
+        "tn": 58,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "blocked": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 22,
+        "tn": 58,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "correct_blocked": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 22,
+        "tn": 58,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "refuse": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 2,
+        "tn": 78,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "false_refusal": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 2,
+        "tn": 78,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "unauthorized_attempt": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 6,
+        "tn": 74,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "parse_failure": {
+      "n": 80,
+      "agreement": 1.0,
+      "stderr": 0,
+      "confusion": {
+        "tp": 14,
+        "tn": 66,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,6 @@
+{
+  "mean_se_known_array": true,
+  "boundary_exact_limits": true,
+  "example_n": 200,
+  "zero_event_upper95": 0.014867039231272054
+}

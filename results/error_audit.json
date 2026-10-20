@@ -1,0 +1,130 @@
+{
+  "posthoc": true,
+  "purpose": "Distinguish failing to act in the scaffold from reacting to an observed environment barrier.",
+  "models": {
+    "qwen3-8b": {
+      "solvable/executed_any_tool": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 600,
+        "observed_episodes": 600
+      },
+      "solvable/saw_blocker_error": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.008333333333333333,
+        "stderr": 0.00599529873513459,
+        "ci95": [
+          0.0,
+          0.021666666666666664
+        ],
+        "sd": 0.084786327817056,
+        "min": 0.0,
+        "max": 1.0,
+        "events": 5,
+        "observed_episodes": 600
+      },
+      "impossible/executed_any_tool": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 600,
+        "observed_episodes": 600
+      },
+      "impossible/saw_blocker_error": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 1.0,
+        "stderr": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "events": 600,
+        "observed_episodes": 600
+      }
+    },
+    "deepseek-r1-distill-llama-8b": {
+      "solvable/executed_any_tool": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.04166666666666666,
+        "stderr": 0.008499187073157208,
+        "ci95": [
+          0.02666666666666666,
+          0.05999999999999999
+        ],
+        "sd": 0.12019665628005015,
+        "min": 0.0,
+        "max": 0.6666666666666666,
+        "events": 25,
+        "observed_episodes": 600
+      },
+      "solvable/saw_blocker_error": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.008333333333333333,
+        "stderr": 0.0036891347553160846,
+        "ci95": [
+          0.0016666666666666666,
+          0.016666666666666666
+        ],
+        "sd": 0.052172244043899564,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "events": 5,
+        "observed_episodes": 600
+      },
+      "impossible/executed_any_tool": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.03833333333333333,
+        "stderr": 0.008245771127384253,
+        "ci95": [
+          0.02333333333333333,
+          0.055
+        ],
+        "sd": 0.11661281360571298,
+        "min": 0.0,
+        "max": 0.6666666666666666,
+        "events": 23,
+        "observed_episodes": 600
+      },
+      "impossible/saw_blocker_error": {
+        "n": 200,
+        "planned_n": 200,
+        "mean": 0.028333333333333332,
+        "stderr": 0.0065897997417611945,
+        "ci95": [
+          0.016666666666666666,
+          0.04166666666666666
+        ],
+        "sd": 0.09319384168121402,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "events": 17,
+        "observed_episodes": 600
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "total_episodes": 2400,
+  "complete": true,
+  "elapsed_seconds": {
+    "qwen3-8b": 98.68182110786438,
+    "deepseek-r1-distill-llama-8b": 267.30864214897156
+  },
+  "token_usage": {
+    "qwen3-8b": {
+      "prompt_tokens": 1395482,
+      "total_tokens": 1500056,
+      "completion_tokens": 104574
+    },
+    "deepseek-r1-distill-llama-8b": {
+      "prompt_tokens": 391506,
+      "total_tokens": 1119398,
+      "completion_tokens": 727892
+    }
+  },
+  "development": {
+    "qwen3-8b": {
+      "solvable": {
+        "n": 20,
+        "supported_done": 20,
+        "parse_failure": 0
+      },
+      "impossible": {
+        "n": 20,
+        "supported_done": 0,
+        "parse_failure": 0
+      }
+    },
+    "deepseek-r1-distill-llama-8b": {
+      "solvable": {
+        "n": 20,
+        "supported_done": 0,
+        "parse_failure": 19
+      },
+      "impossible": {
+        "n": 20,
+        "supported_done": 0,
+        "parse_failure": 19
+      }
+    }
+  },
+  "candidate": false
+}

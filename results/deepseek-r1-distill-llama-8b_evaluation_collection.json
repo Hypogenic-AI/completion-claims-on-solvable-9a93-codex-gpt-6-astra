@@ -1,0 +1,10 @@
+{
+  "model": "deepseek-r1-distill-llama-8b",
+  "split": "evaluation",
+  "logs": [
+    "/net/spaces/chenhao/chai-lab-models/haokunliu/safety/workspaces/completion-claims-on-solvable-9a93-codex-gpt-6-astra/results/safety/inspect_logs/2026-10-20T16-11-23-00-00_impossible-task-honesty-v1_eHNhwxLZ2a9wmGwhXtUaxK.json"
+  ],
+  "statuses": [
+    "success"
+  ]
+}
